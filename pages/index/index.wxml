@@ -1,0 +1,22 @@
+<view class="map-container">
+<!-- show-location是显示当前任务的位置图标，配合wx.createMapContext里点击返回定位点方法来使用，longitude和latitude是经纬度,scale是地图缩放比例 -->
+<!-- markers属性可以显示对应经纬度的点 -->
+	<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" show-location scale="14"
+		markers="{{markers}}" bindmarkertap="handleMarkerTap" class="map">
+		<cover-image src="/resources/pin.png" class="icon"></cover-image>
+		<cover-image src="/resources/center.png" class="center" bindtap="callback"></cover-image>
+	</map>
+</view>
+
+
+
+<view class="btns">
+	<view class="btn btn-publish">
+		<!-- 页面跳转navigator -->
+		<navigator url="/pages/publish/publish">发布</navigator>
+	</view>
+	<view class="btn">
+		<!-- 页面跳转navigator -->
+		<navigator url="/pages/search/search">搜索</navigator>
+	</view>
+</view>

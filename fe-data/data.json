@@ -1,0 +1,54 @@
+{
+  "list": [
+    {
+      "type": "buy",
+      "contact": "111111",
+      "message": "求购",
+      "latitude": "30.93484",
+      "longitude": "108.71071",
+      "address": "重庆市云阳县",
+      "distinct": "xiangchao_cource",
+      "id": 1
+    },
+    {
+      "type": "sell",
+      "contact": "123",
+      "message": "123",
+      "latitude": "30.90354",
+      "longitude": "108.71789",
+      "address": "重庆市云阳县永兴路133号",
+      "distinct": "xiangchao_cource",
+      "id": 2
+    },
+    {
+      "type": "sell",
+      "contact": "213",
+      "message": "123",
+      "latitude": "30.91032",
+      "longitude": "108.70515",
+      "address": "重庆市云阳县盘龙街道龙安村九组至龙安村十组",
+      "distinct": "xiangchao_cource",
+      "id": 3
+    },
+    {
+      "type": "sell",
+      "contact": "151",
+      "message": "请照顾好我",
+      "latitude": "30.930358",
+      "longitude": "108.700053",
+      "address": "重庆市云阳县双江镇云江大道1406号",
+      "distinct": "xiangchao_cource",
+      "id": 4
+    },
+    {
+      "type": "sell",
+      "contact": "123",
+      "message": "123",
+      "latitude": "30.92981",
+      "longitude": "108.69835",
+      "address": "重庆市云阳县青龙路38号云阳铭雨三峡风大酒店",
+      "distinct": "xiangchao_cource",
+      "id": 5
+    }
+  ]
+}

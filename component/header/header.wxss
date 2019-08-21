@@ -1,0 +1,7 @@
+.common-header {
+	text-align: center;
+	bottom: 10px;
+	width: 750rpx;
+	position: absolute;
+	color: #777;
+}

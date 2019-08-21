@@ -1,0 +1,31 @@
+/* 导入wxss样式 */
+@import "../.././component/header/header.wxss";
+
+page {
+	background: #eee;
+}
+
+.row {
+	overflow: hidden;	/*产生bfc机制，让内部浮动元素不会乱跑*/
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	color: #777;
+	background: #fff;
+}
+
+.info {
+	margin-left: 100px;
+	line-height: 30px;
+}
+
+.title {
+	width: 90px;
+	float: left;
+	padding-left: 10px;
+	line-height: 30px;
+}
+
+.info-input {
+	height: 50px;
+}
+
